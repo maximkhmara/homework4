@@ -50,7 +50,7 @@ console.log('------------------------------')
 const numTask5 = 243;
 let itPossible = false;
 
-for (let i = 1; i <= numTask5 - 1; i++) {
+for (let i = 1; i <= numTask5; i++) {
   if (3**i === numTask5) {
     console.log(`Число ${numTask5} можна одержати зведенням числа 3 в ${i} степінь🎉`)
     itPossible = true;
